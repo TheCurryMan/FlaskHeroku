@@ -3,11 +3,11 @@
 
 {% block content %}
 <h2> Welcome to this blog! </h2>
-<p> I am {{ author }}, the author of this blog </p>
+<p> I am {{ author }}, the author and owner of this blog </p>
 {% if sunny %}
-<p> Today it is sunny </p>
+<p> Today it is sunny day outside according to our perception</p>
 {% else %}
-<p> Today it is rainy </p>
+<p> Today it is rainy day outside according to our perception</p>
 {% endif %}
 
 {% for post in posts %}
